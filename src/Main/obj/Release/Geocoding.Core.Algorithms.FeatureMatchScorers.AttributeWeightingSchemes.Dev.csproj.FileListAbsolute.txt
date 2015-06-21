@@ -1,6 +1,5 @@
 C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.dll.config
 C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.dll
 C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\build\1.0.0\AnyCPU\release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.pdb
-C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\src\Main\obj\Release\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.Dev.csprojResolveAssemblyReference.cache
 C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.dll
 C:\DevSource\Tamu\GeoInnovation\Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes\src\Main\obj\Release\Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes.pdb
