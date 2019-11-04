@@ -32,15 +32,15 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
         public double ProportionalWeightNumberParity { get { return WeightNumberParity / TotalWeight; } }
         public double ProportionalWeightPreDirectional { get { return WeightPreDirectional / TotalWeight; } }
         public double ProportionalWeightPreType { get { return WeightPreType / TotalWeight; } }
-        public double ProportionalWeightPreQualifier { get { return WeightPreQualifier/ TotalWeight; } }
+        public double ProportionalWeightPreQualifier { get { return WeightPreQualifier / TotalWeight; } }
         public double ProportionalWeightPreArticle { get { return WeightPreArticle / TotalWeight; } }
         public double ProportionalWeightName { get { return WeightName / TotalWeight; } }
         public double ProportionalWeightPostArticle { get { return WeightPostArticle / TotalWeight; } }
-        public double ProportionalWeightSuffix { get { return WeightSuffix/ TotalWeight; } }
-        public double ProportionalWeightPostDirectional { get { return WeightPostDirectional/ TotalWeight; } }
+        public double ProportionalWeightSuffix { get { return WeightSuffix / TotalWeight; } }
+        public double ProportionalWeightPostDirectional { get { return WeightPostDirectional / TotalWeight; } }
         public double ProportionalWeightPostQualifier { get { return WeightPostQualifier / TotalWeight; } }
         public double ProportionalWeightCity { get { return WeightCity / TotalWeight; } }
-        public double ProportionalWeightZip { get { return WeightZip/ TotalWeight; } }
+        public double ProportionalWeightZip { get { return WeightZip / TotalWeight; } }
         public double ProportionalWeightZipPlus4 { get { return WeightZipPlus4 / TotalWeight; } }
         public double ProportionalWeightState { get { return WeightState / TotalWeight; } }
 
