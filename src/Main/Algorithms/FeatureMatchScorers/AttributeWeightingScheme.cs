@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 
 namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
 {
@@ -7,6 +8,7 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
     {
         #region Properties
 
+        [JsonIgnore]
         public bool ShouldTakeAddressRangeHouseUncertaintyPenalty { get; set; }
 
         public double WeightNumber { get; set; }
@@ -24,24 +26,40 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
         public double WeightZip { get; set; }
         public double WeightZipPlus4 { get; set; }
         public double WeightState { get; set; }
+        [JsonIgnore]
         public double MaxBlocksAway { get; set; }
 
         public double TotalWeight { get { return WeightNumber + WeightNumberParity + WeightPreDirectional + WeightPreType + WeightPreQualifier + WeightPreArticle + WeightName + WeightPostArticle + WeightSuffix + WeightPostDirectional + WeightPostQualifier + WeightCity + WeightZip + WeightState; } }
 
+        [JsonIgnore]
         public double ProportionalWeightNumber { get { return WeightNumber / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightNumberParity { get { return WeightNumberParity / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPreDirectional { get { return WeightPreDirectional / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPreType { get { return WeightPreType / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPreQualifier { get { return WeightPreQualifier / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPreArticle { get { return WeightPreArticle / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightName { get { return WeightName / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPostArticle { get { return WeightPostArticle / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightSuffix { get { return WeightSuffix / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPostDirectional { get { return WeightPostDirectional / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightPostQualifier { get { return WeightPostQualifier / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightCity { get { return WeightCity / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightZip { get { return WeightZip / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightZipPlus4 { get { return WeightZipPlus4 / TotalWeight; } }
+        [JsonIgnore]
         public double ProportionalWeightState { get { return WeightState / TotalWeight; } }
 
         #endregion
