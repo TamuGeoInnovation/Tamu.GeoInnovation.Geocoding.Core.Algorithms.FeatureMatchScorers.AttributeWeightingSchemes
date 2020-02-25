@@ -11,20 +11,35 @@ namespace USC.GISResearchLab.Geocoding.Core.Algorithms.FeatureMatchScorers
         [JsonIgnore]
         public bool ShouldTakeAddressRangeHouseUncertaintyPenalty { get; set; }
 
+        [JsonProperty("Number")]
         public double WeightNumber { get; set; }
+        [JsonProperty("NumberParity")]
         public double WeightNumberParity { get; set; }
+        [JsonProperty("PreDirectional")]
         public double WeightPreDirectional { get; set; }
+        [JsonProperty("PreType")]
         public double WeightPreType { get; set; }
+        [JsonProperty("PreQualifier")]
         public double WeightPreQualifier { get; set; }
+        [JsonProperty("PreArticle")]
         public double WeightPreArticle { get; set; }
+        [JsonProperty("Name")]
         public double WeightName { get; set; }
+        [JsonProperty("PostArticle")]
         public double WeightPostArticle { get; set; }
+        [JsonProperty("Suffix")]
         public double WeightSuffix { get; set; }
+        [JsonProperty("PostDirectional")]
         public double WeightPostDirectional { get; set; }
+        [JsonProperty("PostQualifier")]
         public double WeightPostQualifier { get; set; }
+        [JsonProperty("City")]
         public double WeightCity { get; set; }
+        [JsonProperty("Zip")]
         public double WeightZip { get; set; }
+        [JsonProperty("ZipPlus4")]
         public double WeightZipPlus4 { get; set; }
+        [JsonProperty("State")]
         public double WeightState { get; set; }
         [JsonIgnore]
         public double MaxBlocksAway { get; set; }
