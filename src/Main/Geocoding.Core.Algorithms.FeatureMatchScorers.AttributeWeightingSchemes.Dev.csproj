@@ -10,7 +10,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes</RootNamespace>
-    <AssemblyName>Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes</AssemblyName>
+    <AssemblyName>Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes</AssemblyName>
     <SccProjectName>Svn</SccProjectName>
     <SccLocalPath>Svn</SccLocalPath>
     <SccAuxPath>Svn</SccAuxPath>
