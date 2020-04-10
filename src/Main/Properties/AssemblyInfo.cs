@@ -4,12 +4,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes")]
+[assembly: AssemblyTitle("Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Texas A&M University")]
-[assembly: AssemblyProduct("Tamu.GeoInnovation.Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes")]
-[assembly: AssemblyCopyright("Copyright © Texas A&M University 2015")]
+[assembly: AssemblyProduct("Geocoding.Core.Algorithms.FeatureMatchScorers.AttributeWeightingSchemes")]
+[assembly: AssemblyCopyright("Copyright © Texas A&M University 2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -19,7 +19,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8DDB71F6-8D0A-49E6-9164-F2B50950AECB")]
+[assembly: Guid("CA3CB6C9-EBAD-46EA-BAAC-621DC302166C")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -30,5 +30,5 @@ using System.Runtime.InteropServices;
 //
 // You can specify all the values or you can default the Revision and Build Numbers 
 // by using the '*' as shown below:
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
